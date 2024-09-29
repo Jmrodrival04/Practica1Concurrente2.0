@@ -28,11 +28,6 @@ public abstract class Sensor {
     @Column
     private String nombre;
 
-    @Column
-    private OffsetDateTime dateCreated;
-
-    @Column
-    private OffsetDateTime lastUpdated;
 
     @CreatedDate
     @Column(nullable = false, updatable = false)
